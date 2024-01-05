@@ -1,0 +1,23 @@
+{
+  "name": "finan-as",
+  "version": "1.0.0",
+  "description": "FinanceiroSistema",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^7.1.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "sass": "^1.69.7"
+  }
+}
