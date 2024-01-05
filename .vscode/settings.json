@@ -1,0 +1,6 @@
+{
+    "git.ignoredRepositories": [
+        "node-modules",
+        "package-lock.json"
+    ]
+}
