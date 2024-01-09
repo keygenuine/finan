@@ -2,9 +2,8 @@ import bodyParser from "body-parser"
 import express, {json} from "express"
 import { Router } from "express"
 import gastoSchema from "../schema/gasto.js"
-import { connectDb } from "../database/db.js"
+
 const inserir = Router()
-connectDb()
 inserir.use(bodyParser.urlencoded({extended:true}))
 
 inserir.post('/insere', (req,res) =>{ //recebe o JSON com 'GASTO' e 'VALOR'
