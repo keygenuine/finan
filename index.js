@@ -1,7 +1,7 @@
 import express from 'express'
 import inserir from './rotas/Redirecionamento.js'
 import 'dotenv/config'
-import { connectDb } from "../database/db.js"
+import { connectDb } from "./database/db.js"
 
 const app = express()
 connectDb()
