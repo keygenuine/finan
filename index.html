@@ -8,13 +8,18 @@
 
 </head>
 <body>
+    <script>
+        // Initialize Parse
+          Parse.initialize("lYDaqm01JuXR6aB15Bpoi5gaR3RUzTQ9hy0R6xu9", "nbHWFaxMDIiTyDlbwZBnrCNK0mPEGJwGfvfRxgMl"); //PASTE HERE YOUR Back4App APPLICATION ID AND YOUR JavaScript KEY
+          Parse.serverURL = "https://parseapi.back4app.com/";
+    </script>
     <div class="container">
 
         <form class="form" method="POST" >
-          <p>Welceome</p>
+          <p>Welcome</p>
           <input type="text" placeholder="Gasto" name="gasto" value="Gasto"><br>
           <input type="number" placeholder="Valor" name="valor" value="Valor"><br>
-          <input type="submit" formaction="http://localhost:10001/insere" value="Enviar"><br>
+          <input type="submit" formaction="http://localhost:8081/insere" value="Enviar"><br>
         </form>
       
         <div class="drops">
@@ -25,7 +30,6 @@
           <div class="drop drop-5"></div>
         </div>
       </div>
-
 </body>
 <script>
     // let submitar = document.querySelector('input[value="Enviar"]')
